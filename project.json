@@ -1,0 +1,30 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/app.js",
+        "src/CONFIG.js",
+        "src/framework/localStorage.js",
+        "src/resource.js",
+        "src/framework/scheduler.js",
+        "src/framework/constants.js",
+        "src/framework/utils.js",
+        "src/framework/device.js",
+        "src/framework/display.js",
+        "src/data/fruits.js",
+        "src/model/Dragon.js",
+        "src/model/Fruit.js",
+        "src/view/GameOverScene.js",
+        "src/view/StartScene.js",
+        "src/view/GameScene.js"
+    ]
+}

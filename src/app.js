@@ -1,0 +1,2 @@
+var fishGame = fishGame || {};
+
